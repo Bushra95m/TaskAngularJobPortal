@@ -1,0 +1,95 @@
+
+<br>
+
+<div class="menu">
+  <a routerLink="/">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a routerLink="/dashbord">Dashbord</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div class="dropdown">
+    <a routerLink="/jobSeeker">Job Seeker</a>
+    <div class="dropdown-content">
+      <a routerLink="/seekerProfile/profile">Profile</a>
+      <a routerLink="/seekerProfile/notifications">Job Notifications</a>
+      <a routerLink="/seekerProfile/jobSearch">Job Search</a>
+    </div>
+  </div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div class="dropdown">
+    <a routerLink="/jobProvider">Job Provider</a>
+    <div class="dropdown-content">
+      <a routerLink="/jobProvider/CompanyProfile">Company Profile</a>
+      <a routerLink="/jobProvider/jobList">Post Job Listing</a>
+      <a routerLink="/jobProvider/jobManage">Manage Job Applications</a>
+    </div>
+  </div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a routerLink="/myProfile">My Profile Page</a>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <button  class="btn-Secondry" routerLink="/home"> logout</button>
+</div>
+<br/>
+<div class="companyProfile-container">
+<div class="companyProfile-form">
+  
+  <h2>Company Information</h2>
+  <div>
+    <form class="form-group">
+      <div class="column">
+        <div class="form-group">
+            <label for="companyName">Company Name:</label>
+            <input type="companyName" id="companyName" name="companyName" />
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="form-group">
+              <label for="logo">Company Logo:</label>
+              <input type="file" id="logo" name="logo" />
+          </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div class="form-group">
+            <label for="industry">Industry:</label>
+            <input type="text" id="industry" name="industry" />
+
+        </div>
+   
+        </div>
+    
+    
+      <div class="column">
+       
+        <div class="form-group">
+            <label for="location">Location:</label>
+          <select id="location" name="location">
+            <option value="value1"></option>
+            <option value="value2"></option>
+            <option value="value3"></option>
+            <option value="value4"></option>
+          </select>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="form-group">
+            <label for="description">Company Description:</label>
+            <textarea id="description" name="description" placeholder="Enter company description"></textarea>
+        </div>
+      </div>
+      
+    
+
+     <br>
+     
+     <div class="form-group2">
+
+      <button class="btn-primary" >Save Profile</button>
+     </div>
+     <br>
+     <br>
+    
+    
+    
+  </form>
+
+  </div>
+
+
+

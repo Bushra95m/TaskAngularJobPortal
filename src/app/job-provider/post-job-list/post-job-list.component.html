@@ -1,0 +1,85 @@
+<br>
+<div class="menu">
+    <a routerLink="/home">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/dashbord">Dashbord</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <div class="dropdown">
+      <a routerLink="/jobSeeker">Job Seeker</a>
+      <div class="dropdown-content">
+        <a routerLink="/seekerProfile/profile">Profile</a>
+        <a routerLink="/seekerProfile/notifications">Job Notifications</a>
+        <a routerLink="/seekerProfile/jobSearch">Job Search</a>
+      </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="dropdown">
+      <a routerLink="/jobProvider">Job Provider</a>
+      <div class="dropdown-content">
+        <a routerLink="/jobProvider/CompanyProfile">Company Profile</a>
+        <a routerLink="/jobProvider/jobList">Post Job Listing</a>
+        <a routerLink="/jobProvider/jobManage">Manage Job Applications</a>
+      </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a routerLink="/myProfile">My Profile Page</a>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+     <button   class="btn-Secondry" routerLink="/home"> logout</button>
+  </div>
+<br/>
+<div class="post-job-container">
+<div class="post-job-form">
+    
+    <h2>Post Job Listing</h2>
+    <div>
+      <form class="form-group">
+        <div class="column">
+          <div class="form-group">
+            <label for="jobTitle">Job Title:</label>
+            <input type="text" id="jobTitle" name="jobTitle"/>
+          </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="form-group">
+            <label for="jobDescription">Job Description:</label>
+            <textarea id="jobDescription" name="jobDescription" placeholder="Enter job description" ></textarea>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <div class="form-group">
+            <label for="qualifications">Qualifications:</label>
+            <textarea id="qualifications" name="qualifications" placeholder="Enter qualifications"></textarea>
+          </div>
+          </div>
+      
+      
+        <div class="column">
+          <div class="form-group">
+            <label for="responsibilities">Responsibilities:</label>
+                <textarea id="responsibilities" name="responsibilities" placeholder="Enter responsibilities"></textarea>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="form-group">
+            <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter job location">
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="form-group">
+            <label for="deadline">Application Deadline:</label>
+            <input type="date" id="deadline" name="deadline">
+          </div>
+        </div>
+       <br>
+       <br>
+       <div class="form-group2">
+
+        <button class="btn-primary" >Post Job Listing</button>
+        
+       </div>
+       
+    </form>
+
+    </div>
+
+
+

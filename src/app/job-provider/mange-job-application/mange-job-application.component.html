@@ -1,8 +1,8 @@
 <br>
-
 <div class="menu">
     <a routerLink="/home">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a routerLink="/dashbord">Dashbord</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/dashbord">Dashbord</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
     <div class="dropdown">
       <a routerLink="/jobSeeker">Job Seeker</a>
       <div class="dropdown-content">
@@ -21,40 +21,57 @@
       </div>
     </div>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a routerLink="/myProfile">My Profile </a>
+    <a routerLink="/myProfile">My Profile Page</a>
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-     <button  class="btn-Secondry" routerLink="/home"> logout</button>
-    
+     <button   class="btn-Secondry" routerLink="/home"> logout</button>
   </div>
 <br/>
-<h1 style="color: #494848;">Welcome To Job Portal Website</h1>
-<div class="seekerProfile-container">
-   
-<div class="seekerProfile-form">
+<div class="manage-job-container">
+<div class="manage-job-form">
     
-  
+    <h2>Manage Job Applications</h2>
     <div>
       <form class="form-group">
         <div class="column">
           <div class="form-group">
-            <img src="assets/images/B1.png" alt="this images" />
+            <label for="applicant_name">Applicant Name:</label>
+            <input type="text" id="applicant_name" name="applicant_name"/>
           </div>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <div class="form-group">
-            <img src="assets/images/B2.png" alt="this images" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
           </div>
-         
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
           <div class="form-group">
-            <img src="assets/images/B3.png" alt="this images" />
+            <label for="resume">Resume/CV:</label>
+            <input type="file" id="resume" name="resume" />
           </div>
           </div>
+      
+      
+        <div class="column">
+          <div class="form-group">
+            <label for="cover_letter">Cover Letter:</label>
+            <textarea id="cover_letter" name="cover_letter" rows="5"></textarea>
+        </div>
+        </div>
+       <br>
+       <br>
+      
+       <div class="form-group2">
+
+        <button class="btn-primary" >Submit Application</button>
+       </div>
+      
        
     </form>
 
     </div>
 
-    <h2 style="color: #616162;">Step By Step To Reach Your Dream Job</h2>
+
+
 
