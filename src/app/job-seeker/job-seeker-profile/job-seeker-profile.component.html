@@ -1,0 +1,129 @@
+<br>
+<div class="menu">
+    <a routerLink="/home">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/dashbord">Dashbord</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <div class="dropdown">
+      <a routerLink="/jobSeeker">Job Seeker</a>
+      <div class="dropdown-content">
+        <a routerLink="/seekerProfile/profile">Profile</a>
+        <a routerLink="/seekerProfile/notifications">Job Notifications</a>
+        <a routerLink="/seekerProfile/jobSearch">Job Search</a>
+      </div>
+    </div>
+ 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a routerLink="/myProfile">My Profile Page</a>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+     <button   class="btn-Secondry" routerLink="/home"> logout</button>
+  </div>
+<br/>
+<div class="seekerProfile-container">
+<div class="seekerProfile-form">
+    
+    <h2>Job Seeker Profile</h2>
+    <div>
+      <form class="form-group">
+        <div class="column">
+          <div class="form-group">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" />
+          </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <div class="form-group">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          </div>
+      
+      
+        <div class="column">
+          <div class="form-group">
+            <label for="mobile">Mobile Number:</label>
+            <input type="mobile" id="mobile" name="mobile" />
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="form-group">
+            <label for="mobile2">Alternative Mobile Number:</label>
+            <input type="mobile2" id="mobile2" name="mobile2" />
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="address" id="address" name="address" />
+          </div>
+        </div>
+        <div class="column">
+          <div class="form-group">
+            <label for="mobile">College/University</label>
+            <input type="mobile" id="mobile" name="mobile" />
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="form-group">
+            <label for="major">Major:</label>
+            <input type="major" id="major" name="major" />
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="form-group">
+            <label for="education">Eduction Level:</label>
+  <select id="education" name="education">
+    <option value="high-school">High School</option>
+    <option value="associate">Associate's Degree</option>
+    <option value="bachelor">Bachelor's Degree</option>
+    <option value="master">Master's Degree</option>
+    <option value="doctorate">Doctorate (Ph.D.)</option>
+   
+  </select>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="form-group">
+          <label>Upload Resume:
+            <input type="file"  style="display: none" />
+          <button >Select File</button>
+          </label>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="form-group">
+          <label>Upload CV:
+            <input type="file"  style="display: none" />
+          <button >Select File</button>
+          </label>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="form-group">
+          <label>Upload certificate:
+            <input type="file"  style="display: none" />
+          <button >Select File</button>
+          </label>
+        </div>
+        </div>
+        
+        
+      
+
+       <br>
+       <br>
+       <div class="form-group2">
+
+        <button class="btn-primary" >Save</button>&nbsp;&nbsp;
+        <button class="btn-primary" >Submit</button>
+       </div>
+       
+    </form>
+
+    </div>
+
+

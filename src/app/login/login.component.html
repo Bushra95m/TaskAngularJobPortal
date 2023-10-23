@@ -1,0 +1,42 @@
+<br>
+<div class="menu">
+     
+      <button   class="btn-Secondry" routerLink="/signUp"> Sign UP</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button   class="btn-Secondry" routerLink="/home"> logout</button>
+    </div>
+<br/>
+<div class="login-container">
+<div class="login-form">
+      <img class="img1" src="assets/images/login.png" alt="this images"/>
+      <h2>Login</h2>
+      <div>
+      <form class="form-group" >
+          <div class="form-group">
+              <label for="username">User Name</label>
+              <input type="text" id="username" name="username" [(ngModel)]="username"/>
+          
+        </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" [(ngModel)]="password"/>
+          <br>
+          <br>
+          <br>
+          <button class="btn-primary" (click)="login()">Login</button>
+      
+          </div>
+      </form>
+      <div class="login-footer">
+            <a href="#">Forgot password?</a>
+            <a routerLink="/signUp">Register now</a>
+          </div>
+      </div>
+</div>
+
+      <img src="assets/images/img3.png" alt="this images" class="img2"/>
+
+</div>
+
+
+
+
